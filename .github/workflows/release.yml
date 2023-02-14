@@ -33,4 +33,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          TURBO_TOKEN: cHbkHv5bmm3OyvDc1a9ul3eo
+          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
